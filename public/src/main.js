@@ -22,6 +22,9 @@ function generateQR(userInput) {
       inputText.classList.remove('error-message');
     },1000)
 
+    setTimeout(() => {
+      inputText.style.border = '2px solid #2B7DF9';
+    },1000)
   }
 };
 
